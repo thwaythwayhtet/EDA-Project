@@ -1,1 +1,162 @@
-# EDA-Project
+## 🧠 SQL Exploratory Data Analysis (EDA) Project
+
+✨ <u>About this project</u>
+
+**🎯 Objective** <br>
+To develop a structured SQL repository that demonstrates practical data analytics skills, including data exploration, metric development, time-based analysis, and customer segmentation, while showcasing best practices for transforming raw data into actionable business insights.  <br><br>
+
+
+**🗄️ Database** 
+*	SQL Platform: MySQL
+*	Key Tables: dim_product, dim_customer, fact_sales
+* Source: Data with Baraa - [Exploratory Data Analysis (EDA) Project](https://www.datawithbaraa.com/wiki/sql#sql-welcome) <br><br>
+
+
+**🧰 Tools & Skills**
+*	Exploratory Data Analysis (EDA) 
+  o	Database Exploration
+  o	Dimension Exploration
+  o	Date Exploration
+  o	Measures Exploration
+  o	Magnitude
+  o	Ranking: LIMIT, RANK(), ROW_NUMBER()
+•	SQL (Basic Queries, Data Profiling, Simple Aggregations, Suqueries) <br><br>
+
+**⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
+
+**🔍 1. Database Exploration <br>
+*Note: To differentiate between “Dimension” and “Measure” in terms of how the data can be made sense to aggregate or numeric.*
+
+1. Explore All objects in the database
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/1.1.png) <br>
+
+
+2. Explore All columns in the database
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/1.2.png) <br>
+
+**🔍 2. Dimensions Exploration** <br>
+
+1.Explore All countries our customer come from.
+  > Customers mainly come from 6 different countries: Australia, United States, Canada, Germany, United Kingdom and France.
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.1.png) <br>
+
+
+2.Explore All Categories “The major Divisions”
+  > Four main categories: 'Components', 'Bikes', 'Clothing', 'Accessories' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.2.1.png) <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.2.2.png) <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.2.3.png) <br>
+
+
+**🔍 3. Date Exploration: Understand the scope of data and the timespan.**
+
+1. Identify the earliest and latest dates (boundaries)
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/3.1.png) <br>
+
+
+2. How many years of sales are available
+   > Years of sales = 4 years <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/3.2.png) <br>
+
+3. Find the youngest and oldest customers
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/3.3.png) <br>
+
+
+**🔍 4. Measures Exploration: Calculate the key metric of the business**
+
+1. Find the Total Sales
+  > Total Sales = '29,356,250' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.1.png) <br>
+
+2. Find how many items are sold
+  > Total Quantity = '60423' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.2.png) <br>
+
+3. Find the average selling price
+  > Average Price = '486.0378' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.3.png) <br>
+
+4. Find the Total numbers of orders
+  > Total Orders = '27659' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.4.png) <br>
+
+5. Find the Total numbers of products
+  > Total Product = '130' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.5.png) <br>
+
+6. Find the Total numbers of customers
+  > Total Customers = '18484' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.6.png) <br>
+
+7. Find the Total numbers of customers that has placed an order
+  > Total Customer with order = '18484' <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.6.png) <br>
+
+8. Generate a Report that shows all key metric of the business
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.7.png) <br>
+
+
+**🔍 5. Magnitude: Compare the measure values by categories**
+*To understand the importance of different categories*
+
+1. Find total customers by country
+  > The highest Number of Customers comes from “United State” and the lowest from “Canada”. <br><br>
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.1.png) <br>
+
+
+2. Find total customers by gender
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.2.png) <br>
+
+3. Find total products by category
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.3.png) <br>
+
+4. What is the average cost in each category?
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.4.png) <br>
+
+5. What is the total revenue generated for each category?
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.5.png) <br>
+
+6. Find total revenue is generated by each customer
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.6.png) <br>
+
+7. What is the distribution of sold items across countries?
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/5.7.png) <br>
+
+
+**🔍 6. Ranking Analysis** 
+*Order the values of dimensions by measure. Top N performers | Bottom N performers*
+
+1. Which 5 products generate the highest revenue?
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/6.1.png) <br>
+
+
+2. What are the 5 worst-performing products in terms of sales?
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/6.2.png) <br>
+
+3. Ranking Products by the highest revenue? >> Window Function: ROW_NUMBER () | RANK()
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/6.3.png) <br>
+
+
+4. Top 5 Products by highest revenue >> Subqueries
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/6.4.png) <br>
+
+
+5. Find the top 10 customers who have generated the highest revenue
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/6.5.png) <br>
+
+
+6. The 3 customers with the fewest orders placed
+![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/6.6.png) <br>
+
+
+👉 [*Please check out SQL Query Code!*](https://github.com/thwaythwayhtet/EDA-Project/blob/main/exploratorydataanalysis_eda_project.sql)
+
+
+
+
+
+
+
+
+
+
