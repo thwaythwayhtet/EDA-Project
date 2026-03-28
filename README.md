@@ -14,12 +14,12 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 **🧰 Tools & Skills**
 *	Exploratory Data Analysis (EDA) 
-   *	Database Exploration
-   *	Dimension Exploration
-   *	Date Exploration
-   *	Measures Exploration
-   *	Magnitude
-   *	Ranking: LIMIT, RANK(), ROW_NUMBER()
+    *	Database Exploration
+    *	Dimension Exploration
+    *	Date Exploration
+    *	Measures Exploration
+    *	Magnitude
+    *	Ranking: LIMIT, RANK(), ROW_NUMBER()
 *	SQL (Basic Queries, Data Profiling, Simple Aggregations, Suqueries) <br><br>
 
 **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
