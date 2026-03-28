@@ -55,7 +55,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 
 2. How many years of sales are available
-   > Years of sales = 4 years <br><br>
+   > Years of sales = 3 years <br><br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/3.2.png) <br>
 
 3. Find the youngest and oldest customers
