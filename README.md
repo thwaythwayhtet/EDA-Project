@@ -24,7 +24,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
 
-**🔍 1. Database Exploration <br>
+**🔍 1. Database Exploration** <br>
 *Note: To differentiate between “Dimension” and “Measure” in terms of how the data can be made sense to aggregate or numeric.*
 
 1. Explore All objects in the database
