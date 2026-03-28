@@ -92,7 +92,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
   > Total Customer with order = '18484' <br><br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.6.png) <br>
 
-8. Generate a Report that shows all key metric of the business
+8. Generate a Report that shows all key metric of the business <br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/4.7.png) <br>
 
 
