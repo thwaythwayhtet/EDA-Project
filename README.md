@@ -14,13 +14,13 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 **🧰 Tools & Skills**
 *	Exploratory Data Analysis (EDA) 
-  o	Database Exploration
-  o	Dimension Exploration
-  o	Date Exploration
-  o	Measures Exploration
-  o	Magnitude
-  o	Ranking: LIMIT, RANK(), ROW_NUMBER()
-•	SQL (Basic Queries, Data Profiling, Simple Aggregations, Suqueries) <br><br>
+  *	Database Exploration
+  *	Dimension Exploration
+  *	Date Exploration
+  *	Measures Exploration
+  *	Magnitude
+  *	Ranking: LIMIT, RANK(), ROW_NUMBER()
+*	SQL (Basic Queries, Data Profiling, Simple Aggregations, Suqueries) <br><br>
 
 **⭐ Complete SQL Pipeline: From Raw Data to Business Insights** <br>
 
@@ -37,7 +37,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
 **🔍 2. Dimensions Exploration** <br>
 
 1.Explore All countries our customer come from.
-  > Customers mainly come from 6 different countries: Australia, United States, Canada, Germany, United Kingdom and France.
+  > Customers mainly come from 6 different countries: Australia, United States, Canada, Germany, United Kingdom and France. <br><br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.1.png) <br>
 
 
