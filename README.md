@@ -36,12 +36,12 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 **🔍 2. Dimensions Exploration** <br>
 
-1.Explore All countries our customer come from.
+1. Explore All countries our customer come from.
   > Customers mainly come from 6 different countries: Australia, United States, Canada, Germany, United Kingdom and France. <br><br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.1.png) <br>
 
 
-2.Explore All Categories “The major Divisions”
+2. Explore All Categories “The major Divisions”
   > Four main categories: 'Components', 'Bikes', 'Clothing', 'Accessories' <br><br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.2.1.png) <br><br>
 ![database](https://github.com/thwaythwayhtet/EDA-Project/blob/main/images/2.2.2.png) <br><br>
